@@ -336,7 +336,7 @@ body{
 
 /***************** why part  css start **********************/
 #why-part{
-    padding: 40px 0;
+    padding: 60px 0;
     background: #0d004c;
 }
 
@@ -354,8 +354,254 @@ body{
     font-weight: bold;
     color: #0d004c;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 35px;
 }
+
+#why-part .items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#why-part .items-2{
+    margin: 10px 0;
+}
+
+#why-part .items .item{
+    width: 32%;
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    transition: .4s;
+    border: 4px solid transparent;
+}
+
+#why-part .items .item:hover{
+    border: 4px solid #fb0808;
+    background: transparent;
+}
+
+#why-part .items .item-3{
+    background: #fb0808;
+    padding: 25px 0;
+}
+
+#why-part .items .item h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #0d004c;
+    transition: .4s; 
+}
+
+#why-part .items .item:hover h4{
+    color: #fb0808;
+}
+
+#why-part .items .top{
+    padding: 50px 50px;
+}
+
+#why-part .items .un{
+    padding: 50px 5px;
+}
+
+.hvr-ripple-out:before{
+    border: #fff solid 6px;
+}
+
 /***************** why part  css end ************************/
+
+
+
+
+
+/***************** strength part  css start ********************/
+#strength-part{
+    padding: 60px 0;
+}
+
+#strength-part .text-box{
+    display: flex;
+    justify-content: center;
+}
+
+#strength-part .text-box .text{
+    border: 2px solid #1b1464;
+    padding: 5px 20px;
+}
+
+#strength-part .text-box .text{
+    font-weight: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#strength-part .item{
+    padding-top: 30px;
+}
+
+#strength-part .item a{
+    background: #0d004c;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#strength-part .item p{
+   font-size: 15px;
+    font-weight: 400;
+    color: #040000;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    padding-right: 145px;
+}
+
+#strength-part .item-2{
+    padding-top: 20px;
+}
+
+#strength-part .items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#strength-part .items .item{
+    width: 49%;
+    background: #0d004c;
+    border: 3px solid transparent;
+    transition: .4s;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#strength-part .items .item i{
+    font-size: 50px;
+    color: #fff;
+    transition: .4s;
+}
+
+#strength-part .items .item:hover i{
+    color: #fb0808;
+}
+
+#strength-part .items .item:hover{
+    border: 3px solid #0d004c;
+    background: transparent;
+}
+
+#strength-part .items-2{
+    margin-top: 10px;
+}
+
+#strength-part .items .item-1{
+    background: transparent;
+    border: 3px solid #0d004c;
+    transition: .4s;
+}
+
+#strength-part .items .item-1:hover{
+    background: #0d004c;
+    border: 3px solid transparent;
+}
+/***************** strength part  css end **********************/
+
+
+
+
+
+
+/***************** subcribe part  css start *********************/
+#subcribe-part{
+    padding: 40px 0;
+    background: url(../images/subcribe-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subcribe-part .level{
+    width: 100%;
+    position: relative;
+}
+
+#subcribe-part .level .bt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+#subcribe-part .level button{
+    padding: 32px 20px;
+    background: #53d36d;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;
+}
+
+#subcribe-part .level h5{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#subcribe-part .level input{
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    color: #444;
+    font-size: 17px;
+    border: 0;
+    width: 75%;
+}
+
+#subcribe-part .logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subcribe-part .contact h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#subcribe-part .contact p{
+    background: #fff;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+#subcribe-part .contact p i{
+    font-size: 25px;
+    color: #f80707;
+}
+
+#subcribe-part .contact p a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #0d004c;
+    display: inline-block;
+}
+/***************** subcribe part  css end **********************/
 
 
 
@@ -381,7 +627,7 @@ body{
 
 
 
-
+strength
 
 
 
